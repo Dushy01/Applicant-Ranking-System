@@ -1,0 +1,2424 @@
+App As appinfo:
+    BackEnabled: =false
+    Formulas: =
+    OnStart: |-
+        =
+        Set(
+            gblAppDesign,
+            {
+                Dimensions: {
+                    Margin: 32,
+                    GutterWidth: 20
+                }
+            }
+        );
+        Set(
+            gblPieChartColors,
+            [
+                ColorValue("#5C8BFF"),
+                ColorValue("#86AFFF"),
+                ColorValue("#9EC3FF"),
+                ColorValue("#B6D7FF"),
+                ColorValue("#CEFBFF"),
+                ColorValue("#E4FFFF"),
+                ColorValue("#F0F0FF")
+            ]
+        );
+        ClearCollect(
+            colResumes,
+            {
+                ID: 1,
+                Timestamp: "2024-03-06T00:00:00",
+                Name: "Amit Patel",
+                EmploymentHistory: [
+                    {
+                        start_date: "2022-01-01",
+                        end_date: "2022-12-31",
+                        designation: "Software Developer Intern",
+                        role: ["Frontend Developer"],
+                        keyskills: [
+                            "React",
+                            "JavaScript",
+                            "HTML",
+                            "CSS"
+                        ],
+                        company_name: "TechCorp"
+                    },
+                    {
+                        start_date: "2023-01-01",
+                        end_date: "2023-12-31",
+                        designation: "Software Engineer",
+                        role: ["Full Stack Developer"],
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "React",
+                            "MongoDB"
+                        ],
+                        company_name: "Infosys"
+                    }
+                ],
+                Domain: "Computer Science",
+                Experience: 2.5,
+                ContactEmail: "amit.patel@gmail.com",
+                ContactMobile: "9876543210",
+                Location: "Mumbai, India",
+                TechnicalSkillset: [
+                    "Java",
+                    "Spring",
+                    "React",
+                    "MongoDB",
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                SoftSkillset: [
+                    "Team player",
+                    "Problem solver",
+                    "Quick learner"
+                ],
+                EducationDetails: [
+                    {
+                        start_date: "2017",
+                        end_date: "2021",
+                        institute: "Indian Institute of Technology Bombay",
+                        courseName: "Bachelor of Technology (Computer Science)",
+                        percentage: "79%"
+                    },
+                    {
+                        start_date: "2015",
+                        end_date: "2017",
+                        institute: "St. Xavier's Junior College",
+                        courseName: "Higher Secondary",
+                        percentage: "88%"
+                    },
+                    {
+                        start_date: "2010",
+                        end_date: "2015",
+                        institute: "St. Mary's High School",
+                        courseName: "Secondary School",
+                        percentage: "92%"
+                    }
+                ],
+                Achievements: [
+                    "Hackathon Winner 2022",
+                    "Best Employee Award 2023"
+                ],
+                ExperienceDetails: "2.5",
+                Projects: [
+                    {
+                        start_date: "03-2023",
+                        end_date: "07-2023",
+                        project_title: "E-commerce Platform",
+                        keyskills: [
+                            "Spring Boot",
+                            "React",
+                            "MongoDB"
+                        ],
+                        role: ["Full Stack Developer"]
+                    },
+                    {
+                        start_date: "09-2022",
+                        end_date: "12-2022",
+                        project_title: "Social Media App",
+                        keyskills: [
+                            "Java",
+                            "Spring",
+                            "React",
+                            "MongoDB"
+                        ],
+                        role: ["Full Stack Developer"]
+                    }
+                ],
+                GithubLink: "https://github.com/amitpatel",
+                LinkedIn: "https://linkedin.com/in/amitpatel"
+            },
+            {
+                ID: 2,
+                Timestamp: "2024-03-06T00:00:00",
+                Name: "Neha Sharma",
+                EmploymentHistory: [
+                    {
+                        start_date: "2023-01-01",
+                        end_date: "2023-12-31",
+                        designation: "Software Developer Intern",
+                        role: ["Backend Developer"],
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "MongoDB"
+                        ],
+                        company_name: "Softsys"
+                    }
+                ],
+                Domain: "Computer Science",
+                Experience: 0.0,
+                ContactEmail: "neha.sharma@gmail.com",
+                ContactMobile: "9876543210",
+                Location: "Delhi, India",
+                TechnicalSkillset: [
+                    "Python",
+                    "Django",
+                    "HTML",
+                    "CSS",
+                    "JavaScript",
+                    "React"
+                ],
+                SoftSkillset: [
+                    "Team player",
+                    "Problem solver",
+                    "Quick learner"
+                ],
+                EducationDetails: [
+                    {
+                        start_date: "2018",
+                        end_date: "2022",
+                        institute: "Delhi Technological University",
+                        courseName: "Bachelor of Technology (CSE)",
+                        percentage: "76%"
+                    },
+                    {
+                        start_date: "2016",
+                        end_date: "2018",
+                        institute: "Delhi Public School",
+                        courseName: "Senior Secondary School",
+                        percentage: "84%"
+                    },
+                    {
+                        start_date: "2014",
+                        end_date: "2016",
+                        institute: "Delhi Public School",
+                        courseName: "High School",
+                        percentage: "90%"
+                    }
+                ],
+                Achievements: [
+                    "Winner of Coding Competition 2021",
+                    "Best Intern Award"
+                ],
+                ExperienceDetails: "0.0",
+                Projects: [
+                    {
+                        start_date: "01-2023",
+                        end_date: "05-2023",
+                        project_title: "Online Bookstore",
+                        keyskills: [
+                            "Django",
+                            "React"
+                        ],
+                        role: ["Full Stack Developer"]
+                    },
+                    {
+                        start_date: "09-2022",
+                        end_date: "12-2022",
+                        project_title: "Job Portal",
+                        keyskills: [
+                            "HTML",
+                            "CSS",
+                            "JavaScript",
+                            "React"
+                        ],
+                        role: ["Developer"]
+                    }
+                ],
+                GithubLink: "https://github.com/nehasharma",
+                LinkedIn: "https://linkedin.com/in/nehasharma"
+            },
+            {
+                ID: 3,
+                Timestamp: "2024-03-06T00:00:00",
+                Name: "Rakesh Singh",
+                EmploymentHistory: [
+                    {
+                        start_date: "2022-01-01",
+                        end_date: "2022-12-31",
+                        designation: "Software Engineer",
+                        role: ["Backend Developer"],
+                        keyskills: [
+                            "Node.js",
+                            "JavaScript",
+                            "MongoDB"
+                        ],
+                        company_name: "TechMinds"
+                    },
+                    {
+                        start_date: "2023-01-01",
+                        end_date: "2023-12-31",
+                        designation: "Full Stack Developer",
+                        role: ["Full Stack Developer"],
+                        keyskills: [
+                            "React",
+                            "Node.js",
+                            "MongoDB"
+                        ],
+                        company_name: "TechPulse"
+                    }
+                ],
+                Domain: "Computer Science",
+                Experience: 2.0,
+                ContactEmail: "rakesh.singh@gmail.com",
+                ContactMobile: "9876543210",
+                Location: "Bangalore, India",
+                TechnicalSkillset: [
+                    "JavaScript",
+                    "Angular",
+                    "Node.js",
+                    "MongoDB",
+                    "HTML",
+                    "CSS",
+                    "TypeScript"
+                ],
+                SoftSkillset: [
+                    "Adaptable",
+                    "Creative",
+                    "Detail-oriented"
+                ],
+                EducationDetails: [
+                    {
+                        start_date: "2018",
+                        end_date: "2022",
+                        institute: "Indian Institute of Science",
+                        courseName: "Bachelor of Technology (Computer Science)",
+                        percentage: "82%"
+                    },
+                    {
+                        start_date: "2016",
+                        end_date: "2018",
+                        institute: "St. Joseph's Pre-University College",
+                        courseName: "Pre-University",
+                        percentage: "87%"
+                    },
+                    {
+                        start_date: "2011",
+                        end_date: "2016",
+                        institute: "St. Francis Xavier's High School",
+                        courseName: "Secondary School",
+                        percentage: "90%"
+                    }
+                ],
+                Achievements: [
+                    "Best Project Award 2021",
+                    "Top Performer Recognition"
+                ],
+                ExperienceDetails: "2.0",
+                Projects: [
+                    {
+                        start_date: "05-2023",
+                        end_date: "09-2023",
+                        project_title: "E-commerce Platform",
+                        keyskills: [
+                            "React",
+                            "Node.js",
+                            "MongoDB"
+                        ],
+                        role: ["Full Stack Developer"]
+                    },
+                    {
+                        start_date: "08-2022",
+                        end_date: "12-2022",
+                        project_title: "Social Networking App",
+                        keyskills: [
+                            "Node.js",
+                            "Angular",
+                            "MongoDB"
+                        ],
+                        role: ["Backend Developer"]
+                    }
+                ],
+                GithubLink: "https://github.com/rakeshsingh",
+                LinkedIn: "https://linkedin.com/in/rakeshsingh"
+            },
+            {
+                ID: 4,
+                Timestamp: "2024-03-06T00:00:00",
+                Name: "Priya Gupta",
+                EmploymentHistory: [
+                    {
+                        start_date: "2022-01-01",
+                        end_date: "2022-12-31",
+                        designation: "Software Developer Intern",
+                        role: ["Backend Developer"],
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "MongoDB"
+                        ],
+                        company_name: "TechSolutions"
+                    },
+                    {
+                        start_date: "2023-01-01",
+                        end_date: "2023-12-31",
+                        designation: "Software Engineer",
+                        role: ["Full Stack Developer"],
+                        keyskills: [
+                            "JavaScript",
+                            "React",
+                            "Node.js",
+                            "MongoDB"
+                        ],
+                        company_name: "TechNerds"
+                    }
+                ],
+                Domain: "Computer Science",
+                Experience: 2.0,
+                ContactEmail: "priya.gupta@gmail.com",
+                ContactMobile: "9876543210",
+                Location: "Chennai, India",
+                TechnicalSkillset: [
+                    "Java",
+                    "Spring Boot",
+                    "JavaScript",
+                    "React",
+                    "Node.js",
+                    "MongoDB",
+                    "HTML",
+                    "CSS"
+                ],
+                SoftSkillset: [
+                    "Team player",
+                    "Problem solver",
+                    "Quick learner"
+                ],
+                EducationDetails: [
+                    {
+                        start_date: "2018",
+                        end_date: "2022",
+                        institute: "Anna University",
+                        courseName: "Bachelor of Technology (CSE)",
+                        percentage: "80%"
+                    },
+                    {
+                        start_date: "2016",
+                        end_date: "2018",
+                        institute: "St. Joseph's College",
+                        courseName: "Higher Secondary",
+                        percentage: "85%"
+                    },
+                    {
+                        start_date: "2014",
+                        end_date: "2016",
+                        institute: "Chettinad Vidyashram",
+                        courseName: "High School",
+                        percentage: "90%"
+                    }
+                ],
+                Achievements: [
+                    "Project Presentation Award",
+                    "Volunteer of the Year"
+                ],
+                ExperienceDetails: "2.0",
+                Projects: [
+                    {
+                        start_date: "01-2023",
+                        end_date: "05-2023",
+                        project_title: "E-commerce Website",
+                        keyskills: [
+                            "Java",
+                            "Spring",
+                            "Hibernate",
+                            "MySQL"
+                        ],
+                        role: ["Backend Developer"]
+                    },
+                    {
+                        start_date: "08-2022",
+                        end_date: "12-2022",
+                        project_title: "Online Banking System",
+                        keyskills: [
+                            "Java",
+                            "Spring",
+                            "Hibernate",
+                            "MySQL"
+                        ],
+                        role: ["Backend Developer"]
+                    }
+                ],
+                GithubLink: "https://github.com/priyagupta",
+                LinkedIn: "https://linkedin.com/in/priyagupta"
+            },
+            {
+                ID: 5,
+                Timestamp: "2024-03-06T00:00:00",
+                Name: "Rajesh Kumar",
+                EmploymentHistory: [
+                    {
+                        start_date: "2021-01-01",
+                        end_date: "2021-12-31",
+                        designation: "Software Engineer",
+                        role: ["Backend Developer"],
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "MySQL"
+                        ],
+                        company_name: "TechGenius"
+                    },
+                    {
+                        start_date: "2022-01-01",
+                        end_date: "2022-12-31",
+                        designation: "Senior Software Engineer",
+                        role: ["Full Stack Developer"],
+                        keyskills: [
+                            "C#",
+                            "ASP.NET",
+                            "MVC",
+                            "SQL Server"
+                        ],
+                        company_name: "InnovateTech"
+                    }
+                ],
+                Domain: "Computer Science",
+                Experience: 3.0,
+                ContactEmail: "rajesh.kumar@gmail.com",
+                ContactMobile: "9876543210",
+                Location: "Hyderabad, India",
+                TechnicalSkillset: [
+                    "C#",
+                    "ASP.NET",
+                    "MVC",
+                    "JavaScript",
+                    "HTML",
+                    "CSS",
+                    "SQL Server"
+                ],
+                SoftSkillset: [
+                    "Leadership",
+                    "Problem-solving",
+                    "Adaptable"
+                ],
+                EducationDetails: [
+                    {
+                        start_date: "2015",
+                        end_date: "2019",
+                        institute: "Indian Institute of Technology Hyderabad",
+                        courseName: "Bachelor of Technology (CSE)",
+                        percentage: "84%"
+                    },
+                    {
+                        start_date: "2013",
+                        end_date: "2015",
+                        institute: "Narayana Junior College",
+                        courseName: "Higher Secondary",
+                        percentage: "87%"
+                    },
+                    {
+                        start_date: "2011",
+                        end_date: "2013",
+                        institute: "Delhi Public School",
+                        courseName: "High School",
+                        percentage: "92%"
+                    }
+                ],
+                Achievements: [
+                    "Best Student Award 2018",
+                    "Internship Excellence Award"
+                ],
+                ExperienceDetails: "3.0",
+                Projects: [
+                    {
+                        start_date: "03-2023",
+                        end_date: "08-2023",
+                        project_title: "Online Shopping Website",
+                        keyskills: [
+                            "C#",
+                            "ASP.NET",
+                            "MVC",
+                            "SQL Server"
+                        ],
+                        role: ["Full Stack Developer"]
+                    },
+                    {
+                        start_date: "09-2022",
+                        end_date: "12-2022",
+                        project_title: "Customer Relationship Management System",
+                        keyskills: [
+                            "C#",
+                            "ASP.NET",
+                            "MVC",
+                            "SQL Server"
+                        ],
+                        role: ["Full Stack Developer"]
+                    }
+                ],
+                GithubLink: "https://github.com/rajeshkumar",
+                LinkedIn: "https://linkedin.com/in/rajeshkumar"
+            },
+            {
+                ID: 6,
+                Timestamp: "2024-03-06T00:00:00",
+                Name: "Anjali Verma",
+                EmploymentHistory: [
+                    {
+                        start_date: "2023-01-01",
+                        end_date: "2023-12-31",
+                        designation: "Software Developer Intern",
+                        role: ["Backend Developer"],
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "MySQL"
+                        ],
+                        company_name: "CodeCrafters"
+                    }
+                ],
+                Domain: "Computer Science",
+                Experience: 0.0,
+                ContactEmail: "anjali.verma@gmail.com",
+                ContactMobile: "9876543210",
+                Location: "Pune, India",
+                TechnicalSkillset: [
+                    "Python",
+                    "Django",
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                SoftSkillset: [
+                    "Team player",
+                    "Problem solver",
+                    "Quick learner"
+                ],
+                EducationDetails: [
+                    {
+                        start_date: "2018",
+                        end_date: "2022",
+                        institute: "Savitribai Phule Pune University",
+                        courseName: "Bachelor of Technology (CSE)",
+                        percentage: "75%"
+                    },
+                    {
+                        start_date: "2016",
+                        end_date: "2018",
+                        institute: "Symbiosis Junior College",
+                        courseName: "Higher Secondary",
+                        percentage: "85%"
+                    },
+                    {
+                        start_date: "2014",
+                        end_date: "2016",
+                        institute: "Ramanbaug High School",
+                        courseName: "High School",
+                        percentage: "88%"
+                    }
+                ],
+                Achievements: [
+                    "Hackathon Runner-up 2021",
+                    "Outstanding Intern Award"
+                ],
+                ExperienceDetails: "0.0",
+                Projects: [
+                    {
+                        start_date: "01-2023",
+                        end_date: "05-2023",
+                        project_title: "Event Management System",
+                        keyskills: [
+                            "Django",
+                            "Python",
+                            "HTML",
+                            "CSS",
+                            "JavaScript"
+                        ],
+                        role: ["Developer"]
+                    },
+                    {
+                        start_date: "09-2022",
+                        end_date: "12-2022",
+                        project_title: "Online Quiz Application",
+                        keyskills: [
+                            "Django",
+                            "Python",
+                            "HTML",
+                            "CSS",
+                            "JavaScript"
+                        ],
+                        role: ["Developer"]
+                    }
+                ],
+                GithubLink: "https://github.com/anjaliverma",
+                LinkedIn: "https://linkedin.com/in/anjaliverma"
+            },
+            {
+                ID: 7,
+                Timestamp: "2024-03-06T00:00:00",
+                Name: "Suresh Kumar",
+                EmploymentHistory: [
+                    {
+                        start_date: "2021-01-01",
+                        end_date: "2021-12-31",
+                        designation: "Software Developer Intern",
+                        role: ["Frontend Developer"],
+                        keyskills: [
+                            "React",
+                            "JavaScript",
+                            "HTML",
+                            "CSS"
+                        ],
+                        company_name: "CodeNest"
+                    },
+                    {
+                        start_date: "2022-01-01",
+                        end_date: "2022-12-31",
+                        designation: "Software Engineer",
+                        role: ["Full Stack Developer"],
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "React",
+                            "MongoDB"
+                        ],
+                        company_name: "WebWizards"
+                    }
+                ],
+                Domain: "Computer Science",
+                Experience: 2.0,
+                ContactEmail: "suresh.kumar@gmail.com",
+                ContactMobile: "9876543210",
+                Location: "Bangalore, India",
+                TechnicalSkillset: [
+                    "Java",
+                    "Spring Boot",
+                    "React",
+                    "MongoDB",
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                SoftSkillset: [
+                    "Problem solver",
+                    "Team player",
+                    "Quick learner"
+                ],
+                EducationDetails: [
+                    {
+                        start_date: "2017",
+                        end_date: "2021",
+                        institute: "Visvesvaraya Technological University",
+                        courseName: "Bachelor of Technology (CSE)",
+                        percentage: "80%"
+                    },
+                    {
+                        start_date: "2015",
+                        end_date: "2017",
+                        institute: "Bishop Cotton Pre-University College",
+                        courseName: "Pre-University",
+                        percentage: "85%"
+                    },
+                    {
+                        start_date: "2013",
+                        end_date: "2015",
+                        institute: "St. Joseph's High School",
+                        courseName: "High School",
+                        percentage: "90%"
+                    }
+                ],
+                Achievements: [
+                    "Project Expo Winner 2020",
+                    "Internship Excellence Award"
+                ],
+                ExperienceDetails: "2.0",
+                Projects: [
+                    {
+                        start_date: "03-2023",
+                        end_date: "07-2023",
+                        project_title: "E-commerce Website",
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "React",
+                            "MongoDB"
+                        ],
+                        role: ["Full Stack Developer"]
+                    },
+                    {
+                        start_date: "09-2022",
+                        end_date: "12-2022",
+                        project_title: "Online Food Ordering System",
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "React",
+                            "MongoDB"
+                        ],
+                        role: ["Full Stack Developer"]
+                    }
+                ],
+                GithubLink: "https://github.com/sureshkumar",
+                LinkedIn: "https://linkedin.com/in/sureshkumar"
+            },
+            {
+                ID: 8,
+                Timestamp: "2024-03-06T00:00:00",
+                Name: "Divya Patel",
+                EmploymentHistory: [
+                    {
+                        start_date: "2023-01-01",
+                        end_date: "2023-12-31",
+                        designation: "Software Developer Intern",
+                        role: ["Frontend Developer"],
+                        keyskills: [
+                            "React",
+                            "JavaScript",
+                            "HTML",
+                            "CSS"
+                        ],
+                        company_name: "TechiesHub"
+                    }
+                ],
+                Domain: "Computer Science",
+                Experience: 0.0,
+                ContactEmail: "divya.patel@gmail.com",
+                ContactMobile: "9876543210",
+                Location: "Ahmedabad, India",
+                TechnicalSkillset: [
+                    "Python",
+                    "Django",
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                SoftSkillset: [
+                    "Team player",
+                    "Problem solver",
+                    "Quick learner"
+                ],
+                EducationDetails: [
+                    {
+                        start_date: "2018",
+                        end_date: "2022",
+                        institute: "Gujarat Technological University",
+                        courseName: "Bachelor of Technology (CSE)",
+                        percentage: "78%"
+                    },
+                    {
+                        start_date: "2016",
+                        end_date: "2018",
+                        institute: "Gujarat Higher Secondary Education Board",
+                        courseName: "Higher Secondary",
+                        percentage: "84%"
+                    },
+                    {
+                        start_date: "2014",
+                        end_date: "2016",
+                        institute: "St. Ann's School",
+                        courseName: "High School",
+                        percentage: "86%"
+                    }
+                ],
+                Achievements: [
+                    "Coding Olympiad Winner",
+                    "Top Intern Award"
+                ],
+                ExperienceDetails: "0.0",
+                Projects: [
+                    {
+                        start_date: "01-2023",
+                        end_date: "05-2023",
+                        project_title: "Event Management System",
+                        keyskills: [
+                            "Django",
+                            "Python",
+                            "HTML",
+                            "CSS",
+                            "JavaScript"
+                        ],
+                        role: ["Developer"]
+                    },
+                    {
+                        start_date: "09-2022",
+                        end_date: "12-2022",
+                        project_title: "Online Quiz Application",
+                        keyskills: [
+                            "Django",
+                            "Python",
+                            "HTML",
+                            "CSS",
+                            "JavaScript"
+                        ],
+                        role: ["Developer"]
+                    }
+                ],
+                GithubLink: "https://github.com/divyapatel",
+                LinkedIn: "https://linkedin.com/in/divyapatel"
+            },
+            {
+                ID: 9,
+                Timestamp: "2024-03-06T00:00:00",
+                Name: "Ankur Sharma",
+                EmploymentHistory: [
+                    {
+                        start_date: "2021-01-01",
+                        end_date: "2021-12-31",
+                        designation: "Software Developer Intern",
+                        role: ["Frontend Developer"],
+                        keyskills: [
+                            "React",
+                            "JavaScript",
+                            "HTML",
+                            "CSS"
+                        ],
+                        company_name: "CodeLabs"
+                    },
+                    {
+                        start_date: "2022-01-01",
+                        end_date: "2022-12-31",
+                        designation: "Software Engineer",
+                        role: ["Full Stack Developer"],
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "React",
+                            "MongoDB"
+                        ],
+                        company_name: "TechPro"
+                    }
+                ],
+                Domain: "Computer Science",
+                Experience: 2.0,
+                ContactEmail: "ankur.sharma@gmail.com",
+                ContactMobile: "9876543210",
+                Location: "Pune, India",
+                TechnicalSkillset: [
+                    "Java",
+                    "Spring Boot",
+                    "React",
+                    "MongoDB",
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                SoftSkillset: [
+                    "Team player",
+                    "Problem solver",
+                    "Quick learner"
+                ],
+                EducationDetails: [
+                    {
+                        start_date: "2017",
+                        end_date: "2021",
+                        institute: "University of Pune",
+                        courseName: "Bachelor of Technology (CSE)",
+                        percentage: "81%"
+                    },
+                    {
+                        start_date: "2015",
+                        end_date: "2017",
+                        institute: "Symbiosis Junior College",
+                        courseName: "Pre-University",
+                        percentage: "87%"
+                    },
+                    {
+                        start_date: "2013",
+                        end_date: "2015",
+                        institute: "St. Joseph's High School",
+                        courseName: "High School",
+                        percentage: "91%"
+                    }
+                ],
+                Achievements: [
+                    "Hackathon Winner 2020",
+                    "Best Intern Award"
+                ],
+                ExperienceDetails: "2.0",
+                Projects: [
+                    {
+                        start_date: "03-2023",
+                        end_date: "07-2023",
+                        project_title: "E-commerce Website",
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "React",
+                            "MongoDB"
+                        ],
+                        role: ["Full Stack Developer"]
+                    },
+                    {
+                        start_date: "09-2022",
+                        end_date: "12-2022",
+                        project_title: "Online Food Ordering System",
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "React",
+                            "MongoDB"
+                        ],
+                        role: ["Full Stack Developer"]
+                    }
+                ],
+                GithubLink: "https://github.com/ankursharma",
+                LinkedIn: "https://linkedin.com/in/ankursharma"
+            },
+            {
+                ID: 10,
+                Timestamp: "2024-03-06T00:00:00",
+                Name: "Deepak Singh",
+                EmploymentHistory: [
+                    {
+                        start_date: "2023-01-01",
+                        end_date: "2023-12-31",
+                        designation: "Software Developer Intern",
+                        role: ["Backend Developer"],
+                        keyskills: [
+                            "Java",
+                            "Spring Boot",
+                            "MongoDB"
+                        ],
+                        company_name: "ByteCrafters"
+                    }
+                ],
+                Domain: "Computer Science",
+                Experience: 0.0,
+                ContactEmail: "deepak.singh@gmail.com",
+                ContactMobile: "9876543210",
+                Location: "Mumbai, India",
+                TechnicalSkillset: [
+                    "Python",
+                    "Django",
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+                SoftSkillset: [
+                    "Team player",
+                    "Problem solver",
+                    "Quick learner"
+                ],
+                EducationDetails: [
+                    {
+                        start_date: "2018",
+                        end_date: "2022",
+                        institute: "Mumbai University",
+                        courseName: "Bachelor of Technology (CSE)",
+                        percentage: "77%"
+                    },
+                    {
+                        start_date: "2016",
+                        end_date: "2018",
+                        institute: "Rizvi College",
+                        courseName: "Higher Secondary",
+                        percentage: "83%"
+                    },
+                    {
+                        start_date: "2014",
+                        end_date: "2016",
+                        institute: "St. Xavier's School",
+                        courseName: "High School",
+                        percentage: "88%"
+                    }
+                ],
+                Achievements: [
+                    "Hackathon Runner-up 2021",
+                    "Best Intern Award"
+                ],
+                ExperienceDetails: "0.0",
+                Projects: [
+                    {
+                        start_date: "01-2023",
+                        end_date: "05-2023",
+                        project_title: "Event Management System",
+                        keyskills: [
+                            "Django",
+                            "Python",
+                            "HTML",
+                            "CSS",
+                            "JavaScript"
+                        ],
+                        role: ["Developer"]
+                    },
+                    {
+                        start_date: "09-2022",
+                        end_date: "12-2022",
+                        project_title: "Online Quiz Application",
+                        keyskills: [
+                            "Django",
+                            "Python",
+                            "HTML",
+                            "CSS",
+                            "JavaScript"
+                        ],
+                        role: ["Developer"]
+                    }
+                ],
+                GithubLink: "https://github.com/deepaksingh",
+                LinkedIn: "https://linkedin.com/in/deepaksingh"
+            }
+        );
+        ClearCollect(
+            colJobDescription,
+            {
+                ID: 1,
+                Title: "Software Engineer",
+                Department: "Development",
+                ManagerName: "Rahul Sharma",
+                TargetDate: "2024-07-31T00:00:00",
+                WorkExperience: 2.0,
+                NoOfOpening: 3,
+                Location: "India",
+                Description: "We are looking for Software Engineers to join our development team. The ideal candidate will be responsible for developing high-quality software solutions, participating in code reviews, and collaborating with team members.",
+                Responsibilities: [
+                    "Developing high-quality software solutions.",
+                    "Participating in code reviews to ensure code quality.",
+                    "Collaborating with team members to design and implement new features.",
+                    "Troubleshooting and debugging software issues.",
+                    "Documenting software designs and processes."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), M.Tech, MCA",
+                OverallExperienceRequired: 0.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "Java",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Spring Boot",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "JavaScript",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "HTML",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "CSS",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "SQL",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Git",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "RESTful APIs",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "React",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Angular",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Python",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "C#",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Node.js",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "MongoDB",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "AWS",
+                        category: "optional"
+                    }
+                ],
+                Budget: 800000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 2,
+                Title: "Data Scientist",
+                Department: "Data Science",
+                ManagerName: "Priya Verma",
+                TargetDate: "2024-08-15T00:00:00",
+                WorkExperience: 3.0,
+                NoOfOpening: 2,
+                Location: "India",
+                Description: "We are seeking experienced Data Scientists to join our Data Science team. The role involves analyzing large datasets, developing machine learning models, and providing insights to support business decisions.",
+                Responsibilities: [
+                    "Analyzing large datasets to identify trends and patterns.",
+                    "Developing machine learning models for predictive analysis.",
+                    "Providing insights and recommendations based on data analysis.",
+                    "Collaborating with cross-functional teams to understand business requirements.",
+                    "Communicating findings to stakeholders through reports and presentations."
+                ],
+                EducationRequired: "M.Tech, PhD in Computer Science, Statistics, or related field",
+                OverallExperienceRequired: 2.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "Python",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Machine Learning",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Statistics",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Data Visualization",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "SQL",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "R",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "TensorFlow",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "PyTorch",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Spark",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Hadoop",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Java",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "C++",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "AWS",
+                        category: "optional"
+                    },
+                    {
+                        Skillset: "Azure",
+                        category: "optional"
+                    },
+                    {
+                        Skillset: "Google Cloud Platform",
+                        category: "optional"
+                    }
+                ],
+                Budget: 1000000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 3,
+                Title: "Frontend Developer",
+                Department: "Development",
+                ManagerName: "Amit Gupta",
+                TargetDate: "2024-09-10T00:00:00",
+                WorkExperience: 2.0,
+                NoOfOpening: 1,
+                Location: "India",
+                Description: "We are hiring Frontend Developers to join our development team. The ideal candidate will have experience in developing user-friendly web interfaces using modern frontend technologies.",
+                Responsibilities: [
+                    "Developing user-friendly web interfaces using HTML, CSS, and JavaScript.",
+                    "Implementing responsive design principles to ensure compatibility across devices.",
+                    "Collaborating with designers and back-end developers to implement UI/UX designs.",
+                    "Optimizing web applications for maximum speed and scalability.",
+                    "Troubleshooting and debugging frontend issues."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), M.Tech, MCA",
+                OverallExperienceRequired: 1.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "HTML",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "CSS",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "JavaScript",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "React",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Angular",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Vue.js",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Bootstrap",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "TypeScript",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Sass",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Webpack",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "jQuery",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "RESTful APIs",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Node.js",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Git",
+                        category: "optional"
+                    },
+                    {
+                        Skillset: "UI/UX Design",
+                        category: "optional"
+                    }
+                ],
+                Budget: 900000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 4,
+                Title: "Backend Developer",
+                Department: "Development",
+                ManagerName: "Rohit Kumar",
+                TargetDate: "2024-10-20T00:00:00",
+                WorkExperience: 3.0,
+                NoOfOpening: 2,
+                Location: "India",
+                Description: "We are seeking experienced Backend Developers to join our development team. The role involves designing and implementing server-side logic, building reusable code libraries, and optimizing performance.",
+                Responsibilities: [
+                    "Designing and implementing server-side logic and APIs.",
+                    "Building reusable code and libraries for future use.",
+                    "Optimizing applications for maximum speed and scalability.",
+                    "Implementing security and data protection measures.",
+                    "Collaborating with front-end developers to integrate user-facing elements."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), M.Tech, MCA",
+                OverallExperienceRequired: 2.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "Node.js",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "JavaScript",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Express.js",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "MongoDB",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "SQL",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "RESTful APIs",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Git",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "AWS",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Docker",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Kubernetes",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Python",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Java",
+                        category: "low"
+                    },
+                    {
+                        Skillset: ".NET",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "C#",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "PHP",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Ruby",
+                        category: "low"
+                    }
+                ],
+                Budget: 950000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 5,
+                Title: "Cloud Architect",
+                Department: "Cloud Services",
+                ManagerName: "Sneha Gupta",
+                TargetDate: "2024-11-30T00:00:00",
+                WorkExperience: 5.0,
+                NoOfOpening: 1,
+                Location: "India",
+                Description: "We are looking for a skilled Cloud Architect to design and implement scalable cloud solutions. The role involves assessing current cloud environments, identifying opportunities for improvement, and implementing best practices.",
+                Responsibilities: [
+                    "Designing and implementing scalable cloud solutions.",
+                    "Assessing current cloud environments and identifying areas for improvement.",
+                    "Developing cloud migration strategies and execution plans.",
+                    "Implementing best practices for security, performance, and cost optimization.",
+                    "Providing technical guidance and support to project teams."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), M.Tech, MCA",
+                OverallExperienceRequired: 3.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "AWS",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Azure",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Google Cloud Platform",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Cloud Architecture",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Infrastructure as Code",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "DevOps",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Containerization",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Kubernetes",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Docker",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Terraform",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "CI/CD",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Networking",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Linux",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Python",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Scripting",
+                        category: "medium"
+                    }
+                ],
+                Budget: 1200000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 6,
+                Title: "Machine Learning Engineer",
+                Department: "Artificial Intelligence",
+                ManagerName: "Anuj Singh",
+                TargetDate: "2024-12-15T00:00:00",
+                WorkExperience: 3.0,
+                NoOfOpening: 2,
+                Location: "India",
+                Description: "We are seeking experienced Machine Learning Engineers to join our Artificial Intelligence team. The role involves developing machine learning models, implementing algorithms, and deploying solutions to address business challenges.",
+                Responsibilities: [
+                    "Developing machine learning models and algorithms.",
+                    "Implementing and testing machine learning pipelines.",
+                    "Deploying machine learning solutions in production environments.",
+                    "Optimizing machine learning algorithms for performance and scalability.",
+                    "Collaborating with cross-functional teams to understand business requirements."
+                ],
+                EducationRequired: "M.Tech, PhD in Computer Science, Statistics, or related field",
+                OverallExperienceRequired: 2.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "Python",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Machine Learning",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Deep Learning",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Natural Language Processing",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Computer Vision",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "TensorFlow",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "PyTorch",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Scikit-learn",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "SQL",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Big Data",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Java",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "C++",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "R",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Matlab",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Azure",
+                        category: "optional"
+                    },
+                    {
+                        Skillset: "Google Cloud Platform",
+                        category: "optional"
+                    }
+                ],
+                Budget: 1100000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 7,
+                Title: "Cybersecurity Analyst",
+                Department: "Cybersecurity",
+                ManagerName: "Vikas Patel",
+                TargetDate: "2025-01-31T00:00:00",
+                WorkExperience: 4.0,
+                NoOfOpening: 2,
+                Location: "India",
+                Description: "We are looking for Cybersecurity Analysts to join our Cybersecurity team. The role involves monitoring security systems, analyzing threats, and implementing security measures to protect against cyberattacks.",
+                Responsibilities: [
+                    "Monitoring security systems for signs of security breaches or intrusions.",
+                    "Analyzing security data and identifying potential threats.",
+                    "Implementing security measures to protect against cyberattacks.",
+                    "Conducting security audits and vulnerability assessments.",
+                    "Providing incident response and remediation support."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), M.Tech, MCA",
+                OverallExperienceRequired: 2.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "Cybersecurity",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Network Security",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Security Information and Event Management (SIEM)",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Penetration Testing",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Vulnerability Assessment",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Incident Response",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Firewalls",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Intrusion Detection Systems (IDS)",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Encryption",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Linux",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Python",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Cryptography",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "IT Risk Management",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Cloud Security",
+                        category: "optional"
+                    },
+                    {
+                        Skillset: "CISSP Certification",
+                        category: "optional"
+                    }
+                ],
+                Budget: 1000000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 8,
+                Title: "DevOps Engineer",
+                Department: "DevOps",
+                ManagerName: "Alok Sharma",
+                TargetDate: "2025-02-28T00:00:00",
+                WorkExperience: 4.0,
+                NoOfOpening: 1,
+                Location: "India",
+                Description: "We are seeking DevOps Engineers to join our DevOps team. The role involves automating and streamlining operations, deploying and managing infrastructure, and implementing best practices for continuous integration and delivery.",
+                Responsibilities: [
+                    "Automating and streamlining operations using DevOps tools and practices.",
+                    "Deploying, managing, and scaling infrastructure on cloud platforms.",
+                    "Implementing CI/CD pipelines to enable continuous integration and delivery.",
+                    "Monitoring system performance and reliability.",
+                    "Collaborating with development and operations teams to ensure smooth deployments."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), M.Tech, MCA",
+                OverallExperienceRequired: 3.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "DevOps",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "CI/CD",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Automation",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Cloud Computing",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Docker",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Kubernetes",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Terraform",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Jenkins",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Git",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Linux",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Scripting",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Python",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Networking",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Security",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Agile Methodologies",
+                        category: "low"
+                    }
+                ],
+                Budget: 1100000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 9,
+                Title: "UX/UI Designer",
+                Department: "Design",
+                ManagerName: "Nisha Singh",
+                TargetDate: "2025-03-15T00:00:00",
+                WorkExperience: 3.0,
+                NoOfOpening: 2,
+                Location: "India",
+                Description: "We are hiring UX/UI Designers to join our Design team. The role involves creating user-centered designs, wireframes, and prototypes to enhance user experience and satisfaction.",
+                Responsibilities: [
+                    "Creating user-centered designs for websites, web applications, and mobile apps.",
+                    "Developing wireframes and prototypes to illustrate design concepts.",
+                    "Conducting user research and usability testing to gather feedback.",
+                    "Collaborating with cross-functional teams to implement design solutions.",
+                    "Staying up-to-date with industry trends and best practices in UX/UI design."
+                ],
+                EducationRequired: "B.Des, M.Des, B.Tech (CSE/IT/ECE)",
+                OverallExperienceRequired: 2.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "UI Design",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "UX Design",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Adobe Creative Suite",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Sketch",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Figma",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "InVision",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Prototyping",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Wireframing",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "User Research",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Usability Testing",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "HTML",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "CSS",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "JavaScript",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Responsive Design",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Motion Design",
+                        category: "optional"
+                    }
+                ],
+                Budget: 900000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 10,
+                Title: "Database Administrator",
+                Department: "Database Management",
+                ManagerName: "Amit Singh",
+                TargetDate: "2025-04-20T00:00:00",
+                WorkExperience: 4.0,
+                NoOfOpening: 2,
+                Location: "India",
+                Description: "We are seeking Database Administrators to join our Database Management team. The role involves designing, implementing, and maintaining database systems to ensure data availability, integrity, and security.",
+                Responsibilities: [
+                    "Designing and implementing database solutions to meet business requirements.",
+                    "Optimizing database performance and ensuring data integrity.",
+                    "Performing database backups and disaster recovery operations.",
+                    "Monitoring database systems and resolving issues proactively.",
+                    "Implementing and maintaining database security measures."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), M.Tech, MCA",
+                OverallExperienceRequired: 3.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "Database Management",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "SQL",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Database Design",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Database Administration",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "MySQL",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "PostgreSQL",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Oracle",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "SQL Server",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "NoSQL",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "MongoDB",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "AWS",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Azure",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Data Modeling",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "ETL",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Shell Scripting",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Python",
+                        category: "low"
+                    }
+                ],
+                Budget: 1000000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 11,
+                Title: "Network Engineer",
+                Department: "Network Infrastructure",
+                ManagerName: "Rajesh Kumar",
+                TargetDate: "2025-05-31T00:00:00",
+                WorkExperience: 3.0,
+                NoOfOpening: 2,
+                Location: "India",
+                Description: "We are looking for Network Engineers to join our Network Infrastructure team. The role involves designing, implementing, and maintaining network infrastructure to ensure connectivity, performance, and security.",
+                Responsibilities: [
+                    "Designing and implementing network infrastructure solutions.",
+                    "Configuring and maintaining network devices such as routers, switches, and firewalls.",
+                    "Monitoring network performance and optimizing network traffic.",
+                    "Troubleshooting network issues and implementing solutions.",
+                    "Implementing and maintaining network security measures."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), M.Tech, MCA",
+                OverallExperienceRequired: 2.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "Network Infrastructure",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Routing and Switching",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Firewalls",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Cisco Networking",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "LAN/WAN",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "TCP/IP",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "VPN",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Wireless Networking",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Network Monitoring",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Load Balancing",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Cloud Networking",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Linux",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Windows Server",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Security+",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "CCNA",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "CCNP",
+                        category: "low"
+                    }
+                ],
+                Budget: 950000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 12,
+                Title: "QA Engineer",
+                Department: "Quality Assurance",
+                ManagerName: "Sandeep Sharma",
+                TargetDate: "2025-06-30T00:00:00",
+                WorkExperience: 2.0,
+                NoOfOpening: 3,
+                Location: "India",
+                Description: "We are hiring QA Engineers to join our Quality Assurance team. The role involves designing and executing test plans, identifying and reporting bugs, and ensuring the quality of software products.",
+                Responsibilities: [
+                    "Designing and implementing test plans and test cases.",
+                    "Executing manual and automated tests to ensure software quality.",
+                    "Identifying and reporting bugs and issues.",
+                    "Collaborating with development teams to resolve issues.",
+                    "Documenting test results and creating test reports."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), M.Tech, MCA",
+                OverallExperienceRequired: 1.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "Software Testing",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Test Automation",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Manual Testing",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Test Planning",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Bug Tracking Tools",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Selenium",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Jira",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "TestRail",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "API Testing",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Performance Testing",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "SQL",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Python",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "CI/CD",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Agile Methodologies",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "DevOps",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Java",
+                        category: "low"
+                    }
+                ],
+                Budget: 800000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 13,
+                Title: "Business Analyst",
+                Department: "Business Intelligence",
+                ManagerName: "Neha Gupta",
+                TargetDate: "2025-07-31T00:00:00",
+                WorkExperience: 2.0,
+                NoOfOpening: 2,
+                Location: "India",
+                Description: "We are seeking Business Analysts to join our Business Intelligence team. The role involves analyzing business processes, identifying opportunities for improvement, and developing strategies to enhance business performance.",
+                Responsibilities: [
+                    "Analyzing business processes and requirements.",
+                    "Identifying areas for improvement and optimization.",
+                    "Developing business strategies and action plans.",
+                    "Conducting market research and competitive analysis.",
+                    "Collaborating with stakeholders to gather requirements and define project scope."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), MBA, PGDM",
+                OverallExperienceRequired: 1.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "Business Analysis",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Requirements Gathering",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Data Analysis",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Process Improvement",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Project Management",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Market Research",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Data Visualization",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "SQL",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Python",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Tableau",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Power BI",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Agile Methodologies",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "SDLC",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Business Intelligence Tools",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "CRM",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "ERP",
+                        category: "low"
+                    }
+                ],
+                Budget: 850000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 14,
+                Title: "Mobile App Developer",
+                Department: "Mobile Development",
+                ManagerName: "Rahul Verma",
+                TargetDate: "2025-08-31T00:00:00",
+                WorkExperience: 2.0,
+                NoOfOpening: 2,
+                Location: "India",
+                Description: "We are hiring Mobile App Developers to join our Mobile Development team. The role involves designing and developing mobile applications for iOS and Android platforms.",
+                Responsibilities: [
+                    "Designing and developing mobile applications for iOS and Android platforms.",
+                    "Collaborating with cross-functional teams to define, design, and ship new features.",
+                    "Unit-testing code for robustness, including edge cases, usability, and general reliability.",
+                    "Continuously discovering, evaluating, and implementing new technologies to maximize development efficiency.",
+                    "Optimizing applications for performance and scalability."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), M.Tech, MCA",
+                OverallExperienceRequired: 1.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "Mobile App Development",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "iOS Development",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Android Development",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Swift",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Java",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Kotlin",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "React Native",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Flutter",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "RESTful APIs",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Firebase",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "SQLite",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Git",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "UI/UX Design",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "JavaScript",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "HTML",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "CSS",
+                        category: "low"
+                    }
+                ],
+                Budget: 900000,
+                Timestamp: "2024-03-06T00:00:00"
+            },
+            {
+                ID: 15,
+                Title: "Big Data Engineer",
+                Department: "Big Data",
+                ManagerName: "Rohan Sharma",
+                TargetDate: "2025-09-30T00:00:00",
+                WorkExperience: 3.0,
+                NoOfOpening: 2,
+                Location: "India",
+                Description: "We are seeking experienced Big Data Engineers to join our Big Data team. The role involves designing and implementing big data solutions, managing data pipelines, and optimizing data workflows.",
+                Responsibilities: [
+                    "Designing and implementing big data solutions using Hadoop, Spark, or other frameworks.",
+                    "Building and maintaining data pipelines and ETL processes.",
+                    "Optimizing data workflows for performance and scalability.",
+                    "Troubleshooting and debugging data-related issues.",
+                    "Collaborating with data scientists and analysts to understand data requirements."
+                ],
+                EducationRequired: "B.Tech (CSE/IT/ECE), M.Tech, MCA",
+                OverallExperienceRequired: 2.0,
+                Mobile: "",
+                Skillset: [
+                    {
+                        Skillset: "Big Data",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Hadoop",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "Spark",
+                        category: "critical"
+                    },
+                    {
+                        Skillset: "MapReduce",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Hive",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Pig",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Sqoop",
+                        category: "high"
+                    },
+                    {
+                        Skillset: "Kafka",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "NoSQL",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "SQL",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Python",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Java",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "Scala",
+                        category: "medium"
+                    },
+                    {
+                        Skillset: "ETL",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Data Warehousing",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Data Visualization",
+                        category: "low"
+                    },
+                    {
+                        Skillset: "Machine Learning",
+                        category: "optional"
+                    }
+                ],
+                Budget: 1100000,
+                Timestamp: "2024-03-06T00:00:00"
+            }
+        );
+        Set(
+            gblWeightage,
+            Table(
+                {
+                    title: "critical",
+                    value: 0.6
+                },
+                {
+                    title: "high",
+                    value: 0.2
+                },
+                {
+                    title: "medium",
+                    value: 0.1
+                },
+                {
+                    title: "low",
+                    value: 0.05
+                },
+                {
+                    title: "optional",
+                    value: 0.05
+                }
+            )
+        );
+        Clear(colMatching);
+        ForAll(
+            colResumes As resume,
+            ForAll(
+                colJobDescription As jobDesc,
+                Collect(
+                    colMatching,
+                    {
+                        ResumeID: resume.ID,
+                        JobDescriptionID: jobDesc.ID,
+                        Score: Round(
+                            Sum(
+                                AddColumns(
+                                    Filter(
+                                        jobDesc.Skillset,
+                                        ThisRecord.Skillset in resume.TechnicalSkillset
+                                    ) As temp,
+                                    Score,
+                                    LookUp(
+                                        gblWeightage,
+                                        title = temp.category
+                                    ).value
+                                ),
+                                Score
+                            ),
+                            2
+                        )
+                    }
+                )
+            )
+        )
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

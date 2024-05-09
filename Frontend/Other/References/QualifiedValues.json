@@ -1,0 +1,66 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_cr51e_arsdocuments_forms",
+      "Namespace": "ARS Documents (Forms)",
+      "Values": {
+        "Information": "d77e5d23-d8c7-4726-ae83-daae28be481f"
+      }
+    },
+    {
+      "Kind": "default.cds_fileattachment_forms",
+      "Namespace": "FileAttachments (Forms)",
+      "Values": {}
+    },
+    {
+      "Kind": "default.cds_abg_childlaboryoungworkersvi_forms",
+      "Namespace": " Child Labor & Young Workers VIS (Forms)",
+      "Values": {
+        "Information": "66e1592d-ea6a-4af1-a65d-beb1aae32614"
+      }
+    },
+    {
+      "Kind": "default.cds_abg_freedomofassociationcollectivebargainingvi_forms",
+      "Namespace": " Freedom of Association & Collective Bargaining VIS (Forms)",
+      "Values": {
+        "Information": "e7ffdab4-8b73-46de-aa57-a7fe40e4239a"
+      }
+    },
+    {
+      "Kind": "default.cds_crcd7_minchecker_forms",
+      "Namespace": "30mincheckers (Forms)",
+      "Values": {
+        "Information": "c1a6d9c0-3f88-43bf-bbeb-b1d214f9f827"
+      }
+    },
+    {
+      "Kind": "default.cds_crcd7_abfrl_saleses_forms",
+      "Namespace": "abfrl_salesess (Forms)",
+      "Values": {
+        "Information": "165c99f9-0ec6-44d1-a270-d21c7ea02fee"
+      }
+    },
+    {
+      "Kind": "default.cds_account_forms",
+      "Namespace": "Account Names (Forms)",
+      "Values": {
+        "Account": "8448b78f-8f42-454e-8e2a-f8196b0419af",
+        "account card": "b028db32-3619-48a5-ac51-cf3f947b0ef3",
+        "Account Card form": "cccff382-2b92-467e-bf1b-3db179512af8",
+        "Account for Interactive experience": "a72c7955-442b-4ea4-9499-b10cd18b4256",
+        "Account Hierarchy Tile Form": "69cff312-cfb6-4289-9631-249ab85d2c62",
+        "Account Quick Create": "c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b",
+        "Account Reference Panel": "098ae145-1567-41ec-8398-86dbaac70c9b",
+        "Information": "b053a39a-041a-4356-acef-ddf00182762b",
+        "Social Profiles": "2205c86d-ed88-4a2f-a447-3b86a8781f2e"
+      }
+    },
+    {
+      "Kind": "default.cds_abg_accountabilityvi_forms",
+      "Namespace": "Accountability VIS (Forms)",
+      "Values": {
+        "Information": "c7bbf1aa-5832-416c-b58d-bbd9934b8f92"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "IsComponentScoped": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "colMatching",
+    "Type": "CollectionDataSourceInfo"
+  }
+]
